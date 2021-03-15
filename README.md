@@ -1,3 +1,4 @@
 # Approximate-Pattern-Matching
 
 Pattern matching (including string matching, sequence matching...) is an important class of algorithms in Big Data and HPDA (High-Performance Data Analytics). For example, in bioinformatics, such algorithm applies to DNA sequence matching. Another domain of application is data mining. One example of pattern matching is exact string matching that is provided by tools like GNU grep. In addition, the target application of this project includes another parameters: the notion of approximation. Indeed, the notion of approximate matching allows a sequence to be found in a large database with some differences including insertion and deletion. Thus, the notion of distance is used to check if a match occurs or not between the searched pattern and the current processed text. This code is based on the computation of the Levenshtein Distance.
+## Key words: MPI + OpenMP + CUDA
